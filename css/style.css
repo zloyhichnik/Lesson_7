@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: Lato;
+}
+
+h1 {
+  margin-bottom: 82px;
+  font-size: 46px;
+  line-height: 59.8px;
+}
+
+#head-image {
+  margin-bottom: 130px;
+  max-width: 810px;
+}
+
+[class *="__container"] {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.second_bold__container {
+  background: url("../img/quotes.jpg") no-repeat;
+  padding-left: 30px;
+  margin-bottom: 43px;
+}
+
+li {
+  background: url("../img/mark.jpg") top left no-repeat;
+  padding-left: 40px;
+
+
+}
+
+.bold__container p,
+.second_bold__container p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.text__container p,
+.second_text__container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.bold {
+  margin-bottom: 24px;
+}
+
+.text {
+  margin-bottom: 53px;
+}
+
+.text__container>p {
+  margin-bottom: 30px;
+}
+
+
+.second_bold__container {
+  margin-bottom: 43px;
+  padding-left: 58px;
+}
+
+.list__container p {
+  margin-bottom: 24px;
+}
+
+.list__container li {
+  margin-bottom: 4px;
+}
+
+.list {
+  margin-bottom: 24px;
+}
+
+.second_text {
+  margin-bottom: 200px;
+}
+
+
+.background {
+  background: url("../img/pic.jpg") 50% fixed no-repeat, yellowgreen;
+  background-size: 470px;
+}
+
+.background_container {
+  height: 800px;
+  background: url("../img/images.jpg");
+  opacity: 0.8;
+}
+
+.backgroundsecond_container {
+  background: url("../img/cat.jpg") repeat-x, url("../img/cat.jpg") repeat-y, url("../img/cat.jpg") bottom right repeat-x, url("../img/cat.jpg") top right repeat-y;
+  height: 670px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.bacgroundthird_container {
+  height: 800px;
+  background: url("../img/money.jpg");
+  opacity: 0.9;
+}
+
+.bacgroundfourth_container {
+  background: url("../img/channels4_profile.jpg") top right/20% no-repeat, url("../img/DSC02911_2.jpg") 50% 50% no-repeat;
+  height: 760px;
+}
+
+.futer {
+  background-color: black;
+}
+
+.futer div {
+  color: white
+}
